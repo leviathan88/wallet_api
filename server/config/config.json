@@ -1,0 +1,13 @@
+{
+    "test": {
+        "PORT": 4000,
+        "MONGODB_URI": "mongodb://localhost:27017/WalletTest",
+        "JWT_SECRET": "skjafhasjfbakjsfb"
+    },
+
+    "development": {
+        "PORT": 4000,
+        "MONGODB_URI": "mongodb://localhost:27017/Wallet",
+        "JWT_SECRET": "skjafhasjfbakjsfb"
+    }
+}

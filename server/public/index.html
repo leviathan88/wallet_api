@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+    <style>
+        .list {
+            border: 1px solid black;
+        }
+        
+        .list-item {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .list-item>p {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Wallet API</h1>
+
+        <h3>Currencies</h3>
+        <h4>/GET</h4>
+        <div class="list">
+            <div class="list-item">
+                <p>Get All Currencies</p>
+                <p>https://salty-meadow-20050.herokuapp.com/api/currencies</p>
+            </div>
+            <div class="list-item">
+                <p>Get Currency by Id</p>
+                <p>https://salty-meadow-20050.herokuapp.com/api/currencies/:id</p>
+            </div>
+        </div>
+
+        <h4>/POST</h4>
+        <div class="list">
+            <div class="list-item">
+                <p>Add new Currency</p>
+                <p>https://salty-meadow-20050.herokuapp.com/api/currencies</p>
+                <p>Request.body : JSON: {name: 'CHF'}</p>
+            </div>
+        </div>
+
+        <h4>/PUT</h4>
+        <div class="list">
+            <div class="list-item">
+                <p>Update existing Currency</p>
+                <p>https://salty-meadow-20050.herokuapp.com/api/currencies/:id</p>
+                <p>Request.body : JSON: {name: 'EURO'}</p>
+            </div>
+        </div>
+
+        <h4>/DELETE</h4>
+        <div class="list">
+            <div class="list-item">
+                <p>Delete existing Currency</p>
+                <p>https://salty-meadow-20050.herokuapp.com/api/currencies/:id</p>
+            </div>
+        </div>
+
+        <h2>How to set it locally</h2>
+        <div>
+            <ul>
+                <li>Download the project</li>
+                <li>npm install</li>
+                <li>(have local mongodb instance running)</li>
+                <li>npm start</li>
+                <li>npm test</li>
+            </ul>
+            <div>
+
+            </div>
+</body>
+
+</html>
