@@ -1,4 +1,10 @@
 ### Wallet Backend API
+##### API for React-Native iWallet Project
+##### NodeJS + MongoDB
 
-~ GET
-    /currency
+### Installation and Running the project
+```
+$ cd project
+$ npm install
+$ npm start
+```
